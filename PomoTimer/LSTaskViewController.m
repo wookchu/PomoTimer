@@ -11,7 +11,6 @@
 #import "LSAppDelegate.h"
 #import "LSNumberPushingView.h"
 #import "LSTimerButton.h"
-#import "LSToDoTableViewController.h"
 
 @interface LSTaskViewController () <UITableViewDataSource, UITableViewDelegate>
 {
@@ -26,7 +25,6 @@
     
     UITableView *_todaysHistoryTableView;
     
-    LSToDoTableViewController *_todoTableViewController;
 }
 @end
 
@@ -279,14 +277,6 @@
     }
 }
 
-- (IBAction)showTodoTable:(id)sender {
-    
-    _todoTableViewController =[[LSToDoTableViewController alloc] initWithStyle:UITableViewStylePlain];
-    
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:_todoTableViewController];
-    
-    [self presentViewController:nav animated:YES completion:nil];
-}
 
 #pragma mark - Table view data source
 
