@@ -117,7 +117,7 @@
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:kPomodoroTaskDone object:nil];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -211,6 +211,7 @@
     [self updateViewLayout];
     [self updateWorkTitle];
 }
+
 
 - (LSPomoCycle *)nextAvailableCycle
 {
@@ -347,4 +348,7 @@
     return sectionLabel;
 }
 
+- (void) dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kPomodoroTaskDone object:nil];
+}
 @end

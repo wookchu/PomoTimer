@@ -65,17 +65,19 @@
 		2CCD58A5170DBDBC00FBB699 /* LSTimerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD58A4170DBDBC00FBB699 /* LSTimerButton.m */; };
 		2CCD58A917103E9A00FBB699 /* UIImage+ColorAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD58A7170DBF2200FBB699 /* UIImage+ColorAtPixel.m */; };
 		2CCD58AA17104A2100FBB699 /* LSHistoryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD584A170D53A000FBB699 /* LSHistoryDetailViewController.m */; };
+		C10600001771492900178B36 /* icon_free_57_57.png in Resources */ = {isa = PBXBuildFile; fileRef = C106FFFF1771492900178B36 /* icon_free_57_57.png */; };
+		C106FFFE1771492500178B36 /* icon_free_114_114.png in Resources */ = {isa = PBXBuildFile; fileRef = C106FFFD1771492500178B36 /* icon_free_114_114.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2CC2A48016A3D0010037CF76 /* PomoTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomoTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC2A48016A3D0010037CF76 /* PomoTimerFree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomoTimerFree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC2A48416A3D0010037CF76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2CC2A48616A3D0020037CF76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2CC2A48816A3D0020037CF76 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2CC2A48C16A3D0020037CF76 /* PomoTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PomoTimer-Info.plist"; sourceTree = "<group>"; };
+		2CC2A48C16A3D0020037CF76 /* PomoTimerFree-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PomoTimerFree-Info.plist"; sourceTree = "<group>"; };
 		2CC2A48E16A3D0020037CF76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CC2A49016A3D0020037CF76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2CC2A49216A3D0020037CF76 /* PomoTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PomoTimer-Prefix.pch"; sourceTree = "<group>"; };
+		2CC2A49216A3D0020037CF76 /* PomoTimerFree-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PomoTimerFree-Prefix.pch"; sourceTree = "<group>"; };
 		2CC2A49316A3D0020037CF76 /* LSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSAppDelegate.h; sourceTree = "<group>"; };
 		2CC2A49416A3D0020037CF76 /* LSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAppDelegate.m; sourceTree = "<group>"; };
 		2CC2A49616A3D0020037CF76 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -140,6 +142,8 @@
 		2CCD58A4170DBDBC00FBB699 /* LSTimerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTimerButton.m; sourceTree = "<group>"; };
 		2CCD58A6170DBF2200FBB699 /* UIImage+ColorAtPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorAtPixel.h"; sourceTree = "<group>"; };
 		2CCD58A7170DBF2200FBB699 /* UIImage+ColorAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorAtPixel.m"; sourceTree = "<group>"; };
+		C106FFFD1771492500178B36 /* icon_free_114_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_free_114_114.png; path = ../icon_free_114_114.png; sourceTree = "<group>"; };
+		C106FFFF1771492900178B36 /* icon_free_57_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_free_57_57.png; path = ../icon_free_57_57.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +174,7 @@
 		2CC2A48116A3D0010037CF76 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CC2A48016A3D0010037CF76 /* PomoTimer.app */,
+				2CC2A48016A3D0010037CF76 /* PomoTimerFree.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -214,6 +218,8 @@
 		2CC2A48B16A3D0020037CF76 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C106FFFF1771492900178B36 /* icon_free_57_57.png */,
+				C106FFFD1771492500178B36 /* icon_free_114_114.png */,
 				2CCD588D170DB02A00FBB699 /* button_reset_enable@2x.png */,
 				2CCD588E170DB02B00FBB699 /* panel_default@2x.png */,
 				2CCD588F170DB02B00FBB699 /* panel_pomo_pause@2x.png */,
@@ -249,10 +255,10 @@
 				2CCD583C170D453A00FBB699 /* Pomodoro_Dimmed.png */,
 				2CCD583D170D453A00FBB699 /* Pomodoro_Off.png */,
 				2CCD583E170D453A00FBB699 /* Pomodoro_On.png */,
-				2CC2A48C16A3D0020037CF76 /* PomoTimer-Info.plist */,
+				2CC2A48C16A3D0020037CF76 /* PomoTimerFree-Info.plist */,
 				2CC2A48D16A3D0020037CF76 /* InfoPlist.strings */,
 				2CC2A49016A3D0020037CF76 /* main.m */,
-				2CC2A49216A3D0020037CF76 /* PomoTimer-Prefix.pch */,
+				2CC2A49216A3D0020037CF76 /* PomoTimerFree-Prefix.pch */,
 				2CC2A49616A3D0020037CF76 /* Default.png */,
 				2CC2A49816A3D0020037CF76 /* Default@2x.png */,
 				2CC2A49A16A3D0020037CF76 /* Default-568h@2x.png */,
@@ -287,9 +293,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CC2A47F16A3D0010037CF76 /* PomoTimer */ = {
+		2CC2A47F16A3D0010037CF76 /* PomoTimerFree */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CC2A4A416A3D0020037CF76 /* Build configuration list for PBXNativeTarget "PomoTimer" */;
+			buildConfigurationList = 2CC2A4A416A3D0020037CF76 /* Build configuration list for PBXNativeTarget "PomoTimerFree" */;
 			buildPhases = (
 				2CC2A47C16A3D0010037CF76 /* Sources */,
 				2CC2A47D16A3D0010037CF76 /* Frameworks */,
@@ -299,9 +305,9 @@
 			);
 			dependencies = (
 			);
-			name = PomoTimer;
+			name = PomoTimerFree;
 			productName = PomoTimer;
-			productReference = 2CC2A48016A3D0010037CF76 /* PomoTimer.app */;
+			productReference = 2CC2A48016A3D0010037CF76 /* PomoTimerFree.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -314,7 +320,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = Lingostar;
 			};
-			buildConfigurationList = 2CC2A47A16A3D0010037CF76 /* Build configuration list for PBXProject "PomoTimer" */;
+			buildConfigurationList = 2CC2A47A16A3D0010037CF76 /* Build configuration list for PBXProject "PomoTimerFree" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -326,7 +332,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CC2A47F16A3D0010037CF76 /* PomoTimer */,
+				2CC2A47F16A3D0010037CF76 /* PomoTimerFree */,
 			);
 		};
 /* End PBXProject section */
@@ -377,6 +383,8 @@
 				2CCD58A0170DB02C00FBB699 /* button_todo@2x.png in Resources */,
 				2CCD58A1170DB02C00FBB699 /* status_pause@2x.png in Resources */,
 				2CCD58A2170DB02C00FBB699 /* status_play@2x.png in Resources */,
+				C106FFFE1771492500178B36 /* icon_free_114_114.png in Resources */,
+				C10600001771492900178B36 /* icon_free_57_57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,9 +478,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PomoTimer/PomoTimer-Prefix.pch";
-				INFOPLIST_FILE = "PomoTimer/PomoTimer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PomoTimer/PomoTimerFree-Prefix.pch";
+				INFOPLIST_FILE = "PomoTimer/PomoTimerFree-Info.plist";
+				PRODUCT_NAME = PomoTimerFree;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -481,9 +489,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PomoTimer/PomoTimer-Prefix.pch";
-				INFOPLIST_FILE = "PomoTimer/PomoTimer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PomoTimer/PomoTimerFree-Prefix.pch";
+				INFOPLIST_FILE = "PomoTimer/PomoTimerFree-Info.plist";
+				PRODUCT_NAME = PomoTimerFree;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -491,7 +499,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CC2A47A16A3D0010037CF76 /* Build configuration list for PBXProject "PomoTimer" */ = {
+		2CC2A47A16A3D0010037CF76 /* Build configuration list for PBXProject "PomoTimerFree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CC2A4A216A3D0020037CF76 /* Debug */,
@@ -500,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CC2A4A416A3D0020037CF76 /* Build configuration list for PBXNativeTarget "PomoTimer" */ = {
+		2CC2A4A416A3D0020037CF76 /* Build configuration list for PBXNativeTarget "PomoTimerFree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CC2A4A516A3D0020037CF76 /* Debug */,

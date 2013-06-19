@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2CC2A47F16A3D0010037CF76"
                BuildableName = "PomoTimer.app"
-               BlueprintName = "PomoTimer"
-               ReferencedContainer = "container:PomoTimer.xcodeproj">
+               BlueprintName = "PomoTimerFree"
+               ReferencedContainer = "container:PomoTimerFree.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2CC2A47F16A3D0010037CF76"
             BuildableName = "PomoTimer.app"
-            BlueprintName = "PomoTimer"
-            ReferencedContainer = "container:PomoTimer.xcodeproj">
+            BlueprintName = "PomoTimerFree"
+            ReferencedContainer = "container:PomoTimerFree.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2CC2A47F16A3D0010037CF76"
             BuildableName = "PomoTimer.app"
-            BlueprintName = "PomoTimer"
-            ReferencedContainer = "container:PomoTimer.xcodeproj">
+            BlueprintName = "PomoTimerFree"
+            ReferencedContainer = "container:PomoTimerFree.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2CC2A47F16A3D0010037CF76"
             BuildableName = "PomoTimer.app"
-            BlueprintName = "PomoTimer"
-            ReferencedContainer = "container:PomoTimer.xcodeproj">
+            BlueprintName = "PomoTimerFree"
+            ReferencedContainer = "container:PomoTimerFree.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

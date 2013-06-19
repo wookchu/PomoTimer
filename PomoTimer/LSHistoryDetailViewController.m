@@ -54,12 +54,16 @@
             case DONE:
                 pomodoroImageName = @"Pomodoro_On";
                 break;
-                
-                pomodoroImageView.image = [UIImage imageNamed:pomodoroImageName];
+            
         }
+        pomodoroImageView.image = [UIImage imageNamed:pomodoroImageName];
     }
 }
 
+- (void) viewWillAppear:(BOOL)animated
+{
+    
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
